@@ -1,0 +1,327 @@
+/* Start main rules*/
+
+body{font-family: 'Source Sans Pro', sans-serif;}
+
+.container{
+	width:1170px;
+	margin:auto;
+}
+/* End main rules*/
+
+/* Start Header*/
+.header .slider{
+	background-image:url('1.png');
+	background-size:cover;
+	height:600px;
+}
+.header .slider .intro{
+	
+	padding-top:250px;
+	text-align:center;
+	color:#FFF;
+}
+
+.header .slider .intro h2{
+	font-size:50px;
+	width:700px;
+	margin:0 auto;
+	border-top:3px solid #FFF;
+	border-bottom:3px solid #FFF;
+	padding:5px 0;
+	
+}
+
+.header .slider .intro button{
+	background:none;
+	color:#FFF;
+	margin-top:30px;
+	font-size:20px;
+	border: 3px solid #FFF;
+	font-weight:bold;
+	padding:10px 30px;
+}
+
+.header .navbar{
+	background-color:#252f31;
+	color:#FFF;
+	overflow:hidden;
+	
+}
+
+.header .navbar h2{
+	text-transform:uppercase;
+}
+
+.header .navbar h2 span{
+	color:#2ecc71;
+}
+
+.header .navbar ul{
+	list-style:none;
+	padding-left:0;
+	overflow:hidden;
+	float:right;
+}
+
+.header .navbar ul li{
+	
+	padding:10px;
+	
+}
+.header .navbar ul li a{
+	color:#FFF;
+	text-decoration:none;
+	
+}
+
+.header .navbar ul li.active a,
+.header .navbar ul li a:hover{
+	color:#30B576;
+	
+}
+/* End Header*/
+
+/*Start Features*/
+
+.features {
+	overflow:hidden;
+	padding-top:40px;
+	padding-bottom:50px
+}
+
+.features .feat{
+	width:33.33333%;
+	height:150px;
+
+}
+
+.features .feat h2{
+	text-transform:uppercase;
+	color:#444;
+}
+
+/*End Features*/
+
+/*Start Aboutme*/
+
+.about-me{
+	background-color:#f2f2f2;
+	overflow:hidden;
+}
+.about-me .image{
+	width:30%;
+}
+
+.about-me .image img{
+	width:100%;
+}
+
+.about-me .info{
+	width:70%;
+}
+
+.about-me .info h2{
+	margin:40px 0 20px 40px;
+	color:#555;
+}
+
+.about-me .info > p{
+	margin:0 0 10px 40px;
+}
+
+.about-me .info .hobbies{
+	overflow:hidden;
+	margin:20px 0 0 40px;
+	
+}
+.about-me .info .hobbies .content{
+
+	width:50%;
+	min-height:100px;
+	overflow:hidden;
+}
+
+.about-me .info .hobbies .content h3{
+	color:#555;
+}
+
+.about-me .info .hobbies .content .icon{
+	width:12%;
+	margin-right:4%;
+}
+.about-me .info .hobbies .content .icon img{
+	max-width:100%;
+	margin:10px 20px 0 0;
+}
+.about-me .info .hobbies .content .text{
+	width:84%
+}
+
+/*End Aboutme*/
+
+/*start  my skills*/
+.my-skills{
+	padding-top:30px;
+	padding-bottom:50px;
+	overflow:hidden;
+}
+
+.my-skills .skills,
+.my-skills .progrss{
+	float:left;
+	width:50%;
+}
+
+.my-skills .skills h2{
+	margin:25px 0 20px 0;
+	color:#555;
+}
+
+.my-skills .skills p{
+	margin:0 0 10px 0;
+}
+.my-skills .skills button{
+	background:none;
+	color:#2DCC70;
+	margin-top:20px;
+	font-size:20px;
+	border: 3px solid #2DCC70;
+	padding:10px 30px;
+}
+
+.my-skills .progress .tech{
+	margin-left:50px;
+	
+}
+
+.my-skills .progress .tech h3{
+	text-transform:uppercase;
+	color:#555;
+	margin:10px 0;
+}
+
+.my-skills .progress .tech div{
+	background-color:#F2F2F2;
+	height:25px;
+	width:500px;
+	float:right;
+	margin-right:85px;
+	margin-bottom:10px;
+	
+}
+.my-skills .progress .tech div span{
+	background-color:2DCC70;
+	height:25px;
+	display:block;
+	color:#FFF;
+	line-height:25px;
+	text-align:right;
+	font-weight:bold;
+}
+/*end my skills*/
+/*start contact me*/
+
+.contact-me{
+	background-color:#252f31;
+	overflow:hidden;
+	padding-top:50px;
+	padding-bottom:70px;
+}
+
+.contact-me h2{
+	color:#FFF;
+}
+.contact-me p{
+	color:#6A6E71;
+}
+.contact-me .info,
+.contact-me .form{
+	width:50%;
+}
+.contact-me p strong{
+	color:#D1D6DA
+}
+.contact-me .form label{
+	display:block;
+	color:D1D6DA;
+	margin:10px 0;
+}
+
+.contact-me .form input[type="text"]{
+	background-color:#4b5557;
+	color:#FFF;
+	padding:10px;
+	width:80%;
+	border:0;
+	margin-bottom:10px;
+	transition:0.25s;
+	outline:none;
+}
+
+.contact-me .form input[type="text"]:focus,
+.contact-me .form input[type="text"]:hover
+{
+	border:2px solid #2DCC70; 
+	width:85%;
+	
+}
+
+.contact-me .form textarea:focus,
+.contact-me .form textarea:hover{
+	border:2px solid #2DCC70; 
+	width:85%;
+	height:350px;
+}
+.contact-me .form textarea{
+	background-color:#4b5557;
+	color:#FFF;
+	padding:10px;
+	width:80%;
+	border:0;
+	margin-bottom:10px;
+	height:300px;
+	transition:0.25s;
+	outline:none;
+
+}
+.contact-me .form input[type="submit"]{
+	background-color:#191E22;
+	color:#FFF;
+	padding:10px 20px;
+	border:0;
+	margin-top:10px;
+}
+/*end contact me*/
+/*start footer*/
+
+.footer{
+	background-color:#191e22;
+	color:#6A6E71;
+	padding:20px 0;
+	text-align:center;
+}
+.footer ul{
+	list-style:none;
+	padding-left:0;
+	margin:10px 0 0;
+	
+}
+
+.footer ul li{
+	display:inline-block;
+}
+
+.footer ul li img{
+	width:26px;
+	margin:0 1px;
+}
+/*end footer*/
+
+/*Start My Framework*/
+
+.fl-left{
+	float:left; /*Floating Element Left*/
+}
+
+p{color:#888;line-height:1.6;}
+/*End My Framework*/
